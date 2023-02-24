@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tude Consultoria - Fitness</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos&family=Maven+Pro&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <header id="#cabheader" class="navbar navbar-expand-lg sticky-top">
+        <div class="navbar nav-pills">
+            
+            <div class="container">
+                <img class="logo-principal me-5" src="imgs/ASDASDA.png" alt="logo tude personal" />
+                <nav class="navbar-collapse collapse" id="menu-navegacao" style="background-color: black;">
+                    <ul class="texto-font nav nav-pills d-block d-md-flex"> <!-- d-block pra adicionar o button do menu, block e em seguida, o d-md-flex para fazer com que seja flex-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#consultancy">Consultoria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cases">Cases</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Depoimentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#app">APP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#prices">Valores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Dúvidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Início dos slides-->
+    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/homem-jovem-fitness-em-estudio_7502-5008.jpg?w=1380&t=st=1676852288~exp=1676852888~hmac=868b80295df7ea379b4352b988e13a88e1f55ef38a5716d5cdd2d939d74a9b21" style="height:600px;"/>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/atletico-homem-e-mulher-com-halteres_155003-11804.jpg?w=1380&t=st=1676852338~exp=1676852938~hmac=b9c25a9bfe0589790074b56bd5289080370b5f169a7e091bc4c43c3c9eb4fdeb" style="height:600px;">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img class="d-block w-100" src="https://www.virgulistas.com.br/wp-content/uploads/2020/02/Fitness.jpg" style="height:600px;"/>
+            </div>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+    <!-- Final dos slides-->
+    
+    <div data-bs-spy="scroll" data-bs-target="#cabheader" data-bs-smooth-scroll="true">
+        <section id="about" class="mt-5">
+            <div class="container">
+                <h2 class="titulo-font h1 titulo-font">SOBRE</h2>
+                <div class="d-md-flex ">
+                    <img src="imgs/Igor-16.png" style="height:450px" class="rounded">
+                    <p>
+
+                        <ul class="list-group list-group-flush" style="margin-left:60px">
+                            <li class="list-group-item texto-font"><h2 class="display-5 texto-font" style="margin-top:-10px">Igor Tude<h2></li>
+                            <li class="list-group-item texto-font"><h6>Bacharel em Educação Física</h6></li>
+                            <li class="list-group-item texto-font"><h6>Specialist Personal Fitness Trainer</h6></li>
+                            <li class="list-group-item texto-font"><h6>Expert em Postura e Estética</h6></li>
+                            <li class="list-group-item texto-font"><h6>Treinamento Funcional</h6></li>
+                            <li class="list-group-item texto-font"><h6>Funcional SuperCore</h6></li>
+                            <li class="list-group-item texto-font"><h6>HIIT SuperCore – High Intensive Interval Training</h6></li>
+                            <li class="list-group-item texto-font"><h6>Emagrecimento Sustentável: HIIT e Coaching</h6></li>
+                            <li class="list-group-item texto-font"><h6>Manipulação Miofascial na ativação e inibição do movimento humano</h5></li>
+                        </ul>
+                    </p>
+                    <div>
+                    <p>
+                        <img style="margin-left:10px;margin-top:40px" src="https://via.placeholder.com/350">
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="consultancy" class="mt-5" style="background-color:black; color:whitesmoke">
+            <div class="container">
+                <h2 class="titulo-verde titulo-font">CONSULTORIA</h2>
+
+                <div class="d-flex align-items-start">
+                    <p class="texto-font" style="text-align: justify; margin-right:8px;">
+                        Após um tempo sendo treinador individual e coletivo, percebi a demanda evasiva de alunos de academias por falta de resultados. Os mesmos eram sujeitos a treinos prontos sem um mínimo de individualidade, objetivo e respeito às suas limitações mecânicas e fisiológicas. Os resultados não poderiam ser outros a não ser a decepção por falta de resultados.
+Percebi a necessidade de planejar algo novo que fizesse sentido e desse resultados sólidos. Perdia-se horas praticando exercícios aeróbios sem um real fundamento na tentativa de emagrecimento ou aumento de massa muscular, principalmente em uma época onde o ser humano não tem tempo para cuidar mais de si próprio.
+                    </p>
+
+                    <p class="texto-font" style="text-align: justify; margin-right:8px;"></p>
+                        Um paradigma clássico tinha que ser quebrado, o famoso três de oito para crescer e três de quinze para emagrecer tinha que ter um fim.
+A criação de algo novo é consumado pelo intelecto, mas despertado pelo instinto de uma necessidade pessoal. Infelizmente muito profissionais ainda pregam tal método nada efetivo baseado em um mito, uma crença antiga e deturpada por muitos que mal sabem o real motivo de tais números ou a necessidade dos mesmos.
+Baseado em um pilar chamado ciência, na qual predomina a biomecânica e fisiologia, reuni vários estudos e dei iniciativa na construção de um protocolo de treino individual onde a série é curta e eficiente.
+                    </p>
+
+                    <p class="texto-font" style="text-align: justify; margin-right:8px;"></p>
+                        De acordo com a real necessidadel onde se encontra o indivíduo.
+Nessa estratégia é formulada uma periodização totalmente individual, no qual segue-se uma planilha estipulada e planejada baseada em um questionário com todos os pré-requisitos para se atingir o objetivo e uma mudança corporal, gerando assim mais saúde.
+Patologias são respeitadas e estudadas, afinal todos podem praticar atividades físicas, basta ser coerente com a prescrição do treino. Nunca tenha medo de tentar algo novo.
+                    </p>
+            </div>
+        </section>
+    
+        <section id="cases" class="mt-5">
+            <div class="container">
+                <h2 class="titulo-font h1">CASES</h2>
+                <p class="texto-font">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe repellat odit, voluptas consequatur officiis qui porro, maxime id, incidunt inventore repellendus totam ratione quisquam beatae vel nam tempore placeat aliquid.
+                    Facilis, quia molestias ratione optio tempore accusamus quasi numquam eveniet est quidem nemo vero dolorum odit eligendi, quaerat consequuntur eos vel cumque ex nesciunt. Odio earum saepe reprehenderit rem exercitationem!
+                    Blanditiis reiciendis quam non minus nihil, error cumque in dicta dignissimos nostrum exercitationem minima eos aliquam veniam cum esse doloremque autem fugit totam repellendus. Harum corrupti voluptate veritatis consequatur sunt.
+                    Fuga non nemo odit facilis culpa repellendus aliquid quaerat et ab perferendis eos quibusdam unde ad amet tempore sunt explicabo eligendi sint, quidem rem, quasi ducimus! Quam tenetur aliquid repudiandae!
+                    Delectus corrupti fugiat atque voluptatibus? Harum alias reiciendis, totam optio voluptatibus, dicta maiores delectus perferendis earum similique corporis a possimus beatae dolor veniam iure ex laboriosam asperiores sunt voluptates tempora!
+                </p>
+            </div>
+        </section>
+    
+        <section id="testimonials" class="mt-5" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4">    
+                        <h2 class="text-center mb-5 titulo-verde h1 titulo-font">DEPOIMENTOS</h2>
+                        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block" src="imgs/Foto-Mulher-Fitness-PNG.png" style="height:400px"/>
+                                    <h5 class="titulo-font rounded titulo-verde h2 pb-1 mt-2 text-center">Senhora Fitness1</h5>
+                                    <p class="texto-font fst-italic h5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id saepe unde voluptates accusamus cumque expedita libero velit? Incidunt facilis repudiandae vero! Earum sequi optio harum minus quam fugiat nesciunt impedit.</p>
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block" src="imgs/Gym-Bodybuilding-PNG-Clipart-Background.png" style="height:400px"/>
+                                    <h5 class="titulo-font rounded titulo-verde h2 pb-1 mt-2 text-center">Casal Fitness2</h5>
+                                    <p class="texto-font fst-italic h5 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores ratione est doloremque temporibus, iste quaerat nisi voluptatem provident laboriosam! Eveniet laborum qui, ullam aliquam nobis temporibus totam necessitatibus. Possimus, sed.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="app" class="mt-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <p class="texto-font pt-5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, voluptate. Non magni modi veniam at corrupti dignissimos debitis, aspernatur provident earum! Dignissimos architecto accusantium reiciendis explicabo nobis nostrum doloribus suscipit.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nobis blanditiis reiciendis unde rerum. Voluptatum, incidunt. Excepturi nesciunt nam beatae eum laboriosam facilis non est veniam libero minus, esse eveniet!
+                        </p>
+                        </div>
+                        <div class="col-md-4">
+                            <h2 class="h1 stext-center titulo-font">APP</h2>
+                            <img class="text-center" src="https://via.placeholder.com/350" alt="img do app" />
+                        </div>
+                        <div class="col-md-4 pt-5">
+                            <p class="texto-font">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eos minima consequatur mollitia maxime ad reprehenderit explicabo architecto odit, excepturi nemo voluptatem reiciendis labore rerum ea velit in sit dolore!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem suscipit nam assumenda. Reiciendis quasi autem repellendus a veniam distinctio, quod quia similique in commodi! Blanditiis a eligendi iure in ex.
+                            Eius facilis molestias voluptatum earum animi tenetur mollitia adipisci, illum officia vero sapiente aut necessitatibus qui assumenda delectus ipsam sunt nam dicta optio. Nemo natus id in assumenda, asperiores modi.
+                            </p>
+                        </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="prices" class="mt-5" style="background-color:black">
+            <div class="container">
+                <div class="row">
+                    <div class="h1 titulo-font titulo-verde">
+                        VALORES
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-5 pt-2">
+                        <div class="card titulo-verde">
+                            <div class="card-header" style="background-color: black; color:rgb(198, 255, 112)">
+                                <h4 class="titulo-font" style="text-align: center;">Plano Iniciante</h2>
+                            </div>
+                            <div class="card-body" style="background-color: black;">
+                                <img class="card-img-top" src="https://img.freepik.com/fotos-gratis/musica-linda-jovem-garota-esportiva-sobre-parede-escura_176420-660.jpg?w=1380&t=st=1676589320~exp=1676589920~hmac=53577b0b2eb9ac5ffcba6d2697d2ae65d4fa5400e491e25700795e3f562c51d5" style="height:240px; border-radius: 60px;">
+                                <p class="card-text"><br />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7118/7118261.png" style="height:45px;">
+                                    Plano de Treino
+                                </p>
+                                <p style="color:#999999; text-decoration: line-through;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/6948/6948054.png" style="height:35px;">
+                                    Plano de Correção Postural
+                                </p>
+                                <p style="color:#999999; text-decoration: line-through;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1410/1410534.png" style="height: 45px;">
+                                    Dieta*
+                                    <footer class="blockquote-footer"><cite>*feito por nutricionista da equipe</cite></footer>
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2664/2664673.png" style="height: 45px;">
+                                    Acesso ao APP
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" style="height:20px">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/38/38002.png" style="height:20px">
+                                </p>
+                                <p style="color:#999999; text-decoration: line-through;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3741/3741717.png" style="height:45px;">
+                                    Dúvidas pelo Whatsapp
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3296/3296467.png" style="height: 45px;">
+                                    Dúvidas por E-mail
+                                </p>
+                            </div>
+                            <div class="card-footer fw-bold" style="background-color: black;">
+                                <p style="color:rgb(198, 255, 112); text-align: center;">R$150,00</p>
+                                <button id="botao1" type="button" class="btn texto-font">Estou começando!</button>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-5 pt-2">
+                        <div class="card titulo-verde">
+                            <div class="card-header" style="background-color: black; color:rgb(198, 255, 112);">
+                                <h4 class="titulo-font" style="text-align: center;">Plano Intermediário</h4>
+                            </div>
+                            <div class="card-body" style="background-color: black;">
+                                <img class="card-img-top" src="https://img.freepik.com/fotos-gratis/musica-linda-jovem-garota-esportiva-sobre-parede-escura_176420-667.jpg?w=740&t=st=1676661430~exp=1676662030~hmac=6dad2aa1d76b6622d602ab218d05e6da8c68d20024b87a8db2ca5da000dfe793" style="height:240px;  border-radius: 10px;">
+                                <p class="card-text"><br />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7118/7118261.png" style="height:45px;">
+                                    Plano de Treino
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/6948/6948054.png" style="height:35px;">
+                                    Plano de Correção Postural
+                                </p>
+                                <p style="color:#999999; text-decoration: line-through;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1410/1410534.png" style="height: 45px;">
+                                    Dieta*
+                                    <footer class="blockquote-footer"><cite>*feito por nutricionista da equipe</cite></footer>
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2664/2664673.png" style="height: 45px;">
+                                    Acesso ao APP
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" style="height:20px">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/38/38002.png" style="height:20px">
+                                </p>
+                                <p style="color:#999999; text-decoration: line-through;">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3741/3741717.png" style="height:45px;">
+                                    Dúvidas pelo Whatsapp
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3296/3296467.png" style="height: 45px;">
+                                    Dúvidas por E-mail
+                                </p>
+                            </div>
+                            <div class="card-footer" style="background-color: black;">
+                                <p class="fw-bold titulo-verde" style="text-align: center;">R$250,00</p>
+                                <button id="botao1" type="button" class="btn texto-font">Estou desenvolvendo!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 pb-5 pt-2">
+                        <div class="card titulo-verde">
+                            <div class="card-header" style="background-color: black; color:rgb(198, 255, 112)">
+                                <h4 class="titulo-font" style="text-align: center;">Plano Avançado</h4>
+                            </div>
+                            <div class="card-body" style="background-color: black">
+                                <img class="card-img-top" src="https://img.freepik.com/fotos-gratis/linda-garota-esportiva-posando-com-os-bracos-cruzados-sobre-parede-escura_176420-623.jpg?w=740&t=st=1676661431~exp=1676662031~hmac=73b7bdc84f4918452cfa7804657f6e690e6d3e779702906c33d26e3e4bcdee37" style="height:240px;  border-radius: 10px;">
+                                <p class="card-text"><br />
+                                    <img src="https://cdn-icons-png.flaticon.com/512/7118/7118261.png" style="height:45px;">
+                                    Plano de treino
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/6948/6948054.png" style="height:35px;">
+                                    Plano de Correção Postural
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1410/1410534.png" style="height: 45px;">
+                                    Dieta*
+                                    <footer class="blockquote-footer"><cite>feito por nutricionista da equipe</cite></footer>
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2664/2664673.png" style="height: 45px;">
+                                    Acesso ao APP
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2/2235.png" style="height:20px">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/38/38002.png" style="height:20px">
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3741/3741717.png" style="height:45px;">
+                                    Dúvidas pelo Whatsapp
+                                </p>
+                                <p>
+                                    <img src="https://cdn-icons-png.flaticon.com/512/3296/3296467.png" style="height: 45px;">
+                                    Dúvidas por E-mail
+                                </p>
+                            </div>
+                            <div class="card-footer" style="background-color: black">
+                                <p class="fw-bold titulo-verde" style="text-align: center;">R$350,00</p>
+                                <button id="botao1" stype="button" class="btn texto-font">Otimização 100%</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="faq" class="mt-5">
+            <div class="container">
+                <h2 class="titulo-font h1" style="color:black">DÚVIDAS/FAQ</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header texto-font">
+                        <button class="accordion-button bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            <p style="color:whitesmoke">O treino fica pronto na hora?</p>
+                        </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show">
+                        <div class="accordion-body texto-font">
+                            <strong>Não!</strong> É necessário a leitura de toda a Anamnese para que possa começar a construir o plano de treino. Além disso, é preciso analisar as fotos enviadas, para conseguir prescrever o plano de treino. Então, é necessário de 05 a 07 dias úteis para o planejamento de treino estar pronto. E será enviado tanto no e-mail em que foi preenchido na anamnese, quanto no smartphone, através do Whatsapp. Por isso, preencha o número real e e-mail também!
+                        </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header texto-font">
+                        <button class="accordion-button collapsed  bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            <p style="color:whitesmoke">A consultoria já tem plano alimentar?</p>
+                        </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse">
+                        <div class="accordion-body texto-font">
+                            <strong>Depende do plano escolhido.</strong> Existem alguns planos a serem escolhidos. E a depender do plano, sim, o plano de dieta está incluso. Preparado por um profissional da área (nutricionista), após uma reunião entre o personal trainer, o nutricionista e o cliente. Consiste num bate-papo, para além de conhecer, saber dos hábitos alimentares, o plano alimentar depende deste encontro. E acontece por vídeo chamada, logo, <strong>não se preocupe!</strong></stron> Dará certo!
+                        </div>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+            </div>
+            </div>
+        </section>
+    
+        <section id="contact" class="mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="titulo-font">Fale conosco</h2>
+                <form>
+                    <label for="nome" class="texto-font col-form-label col-form-label-md">Seu nome</label>
+                    <input class="texto-font form-control form-control-md" type="text" id="nome" required />
+                    <label for="email" class="texto-font col-form-label col-form-label-md">E-mail</label>
+                    <input class="texto-font form-control" type="email" id="email" required />
+                    <label for="msg" class="texto-font">Sua mensagem</label>
+                    <textarea class="texto-font form-control" id="msg" rows="4"required></textarea>
+                </form>
+                <button type="submit" class="texto-font btn btn-dark mt-1" style="margin-bottom:20px">Enviar</button>   
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="titulo-font">Redes Sociais</h2>
+                        <div>
+                            <ul class="social ">
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-tiktok"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h2 class="titulo-font">Localização</h2>
+                        <img src="https://via.placeholder.com/250"/>
+                        <p class="texto-font text-center fst-italic">
+                            Rua lala, Nº 123, BH - MG
+                        </p>
+            </div>
+        </div>
+        
+    </section>
+
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+
+<footer>
+    <div class="text-center" style="background-color:black">
+        <img src="imgs/teste_logo_verde_LIMPO.png" style="height:60px;">
+    <p class="text-center titulo-font" style="color:rgb(198, 255, 112);">© 2023 Todos os direitos reservados - Tude Consultoria</p>
+    </div>
+</footer>
+</body>
+</html>

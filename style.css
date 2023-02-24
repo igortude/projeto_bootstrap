@@ -1,0 +1,101 @@
+.titulo-font {
+    font-family: 'Genos', sans-serif;
+    font-weight: bold;
+}
+
+.texto-font {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+            }
+
+    header {
+            
+                top:0;
+                left:0;
+                background-color: black;
+                color: white;
+                margin: auto;
+            }
+
+    .section{
+                height:100vh;
+                padding-top: 70px;
+            }
+
+            #testimonials {
+                background-color: black;
+                color: whitesmoke;
+            }
+
+            a.nav-link {
+                color: white;
+                
+            }
+
+            a.nav-link:hover,
+            a.nav-link.inactive {
+                color: rgb(198, 255, 112);
+                font-weight: bold;
+                
+            }
+
+
+            .nav-pills .nav-link.active{
+                background-color: rgb(198, 255, 112);
+                color: black;
+                font-weight: bold;
+            }
+
+            .logo-principal {
+                height: 40px;
+                margin-left: 50px;
+            }
+
+            #texto-sobre {
+                margin-left: 30px;
+            }
+
+            .accordion-button.collapsed::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            }
+
+            .titulo-verde {
+                color:rgb(198, 255, 112);
+            }
+
+            .social li {
+                display: inline;
+                margin: 0 auto;
+                font-size: 22px;
+            }
+            .social li a {
+                color: black;
+                text-decoration: none;
+            }
+
+            #botao1 {
+                width: 50%;
+                background-color:rgb(175, 255, 56);
+                
+                margin-left:100px;
+                transition: all .2s ease-in-out;
+                color: black
+            }
+
+            #botao1:hover {
+                width: 100%;
+                font-weight: bold;
+                margin-left:0;
+                transform: scale(1);
+            }
+
+            .accordion {
+                border: 1px solid rgb(46, 46, 46);
+                border-radius: 5px;
+                
+            }
